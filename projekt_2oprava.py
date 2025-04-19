@@ -10,7 +10,7 @@ import random
 import time
 
 def generate_secret_number():
-    """Generates a random 4-digit number with unique digits and does not start with zero."""
+    """Vygeneruje náhodné 4-místné číslo s jedinečnými číslicemi a nezačíná nulou."""
     digits = list(range(10))
     first_digit = random.choice(digits[1:])  # exclude 0 for the first digit
     digits.remove(first_digit)
